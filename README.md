@@ -7,4 +7,4 @@ project : Student Score Management System
 위 기능(feature)을 자체적으로 개발해서 배포하려 한다.
 
 소속: 합포고등학교
-개발 시작일자: 2025-07-16
+개발 시작일자: 2025-07-16일
