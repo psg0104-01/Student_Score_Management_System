@@ -8,4 +8,3 @@ project : Student Score Management System
 
 소속: 합포고등학교
 개발 시작일자: 2025-07-16
-...
