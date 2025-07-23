@@ -70,6 +70,9 @@ void calculateRanks() {
 
 
 // 석차 계산 함수
-void calculateRanks() {
-
+void printAllsStudents() {
+    //석차 기준 Ascending Sort(람다 함수)
+    sort(students.begin(), students.end(), [](const Student &a, const Student &b) {
+        return a.rank > b.rank; //석차기준으로 비교
+    });
 }
