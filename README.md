@@ -12,3 +12,5 @@ project : Student Score Management System
 
 1. main.cpp 코드 구조 작성
 
+2025-07-23일
+1. 석차를 구하고 석차기준으로 오름차순으로 학생 list를 업데이트

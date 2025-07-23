@@ -21,8 +21,8 @@ vector<Student> students; //Global 변수
 
 // 각 기능별 함수 선언
 void addStudent(); // 학생 정보 추가
-void printAllStudents(); // 모든 학생 정보 출력
 void calculateRanks(); // 석차 계산
+void printAllStudents(); // 모든 학생 정보 출력
 void saveDataToFile(); // 파일에 데이터 저장
 void loadDataFromFile(); // 파일에서 데이터 불러오기
 
@@ -52,4 +52,24 @@ void addStudent() {
     newStudent.avgrage = newStudent.sum / 3.0;
 
     students.push_back(newStudent); // 벡터에 학생 정보 추가
+}
+
+// 석차 계산 함수
+void calculateRanks() {
+    for(int i=0; i < students.size(); i++) {
+        int rank = 1; // 석차 초기화
+        for(int ii=0; ii < students.size(); ii++) {
+            if(students[i].sum < students[ii].sum) { // 총점이 더 높은 학생이 있다면
+                rank++; // 석차 증가
+            }
+        }
+        students[i].rank = rank; // 학생의 석차 설정
+    }
+ }
+
+
+
+// 석차 계산 함수
+void calculateRanks() {
+
 }
