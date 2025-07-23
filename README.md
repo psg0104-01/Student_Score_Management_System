@@ -8,3 +8,7 @@ project : Student Score Management System
 
 소속: 합포고등학교
 개발 시작일자: 2025-07-16일
+
+
+1. main.cpp 코드 구조 작성
+
